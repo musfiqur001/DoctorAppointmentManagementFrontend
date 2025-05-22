@@ -57,3 +57,22 @@ Angular CLI does not come with an end-to-end testing framework by default. You c
 ## Additional Resources
 
 For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+
+
+Some angular command: 
+
+npm install @primeng/themes primeicons primeng tailwindcss-primeui --save
+npm install chart.js --save
+npm install eslint-config-prettier eslint-plugin-import eslint-plugin-prefer-arrow eslint-plugin-prettier postcss prettier tailwindcss --save-dev
+npm install @angular/animations primeclt --save
+npm install autoprefixer eslint --save-dev
+
+ng s --port 4201 -o
+npm i tailwindcss-primeui@^0.5.1
+npm uninstall @tailwindcss/postcss
+
+ng g c Login
+ng g s Master
+ng g environments
+
+ng build --configuration=development
