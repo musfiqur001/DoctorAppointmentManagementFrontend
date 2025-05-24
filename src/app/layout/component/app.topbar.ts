@@ -76,6 +76,10 @@ import { LayoutService } from '../service/layout.service';
                         <i class="pi pi-user"></i>
                         <span>Profile</span>
                     </button>
+                    <button type="button" routerLink="/Login" class="layout-topbar-action">
+                        <i class="pi pi-power-off mr-2"></i>
+                        <span>Logout</span>
+                    </button>
                 </div>
             </div>
         </div>

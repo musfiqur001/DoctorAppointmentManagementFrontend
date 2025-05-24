@@ -4,7 +4,7 @@ import { environment } from "../../environments/environment";
 export class Common {
 
   public static getToken() {
-    return "Bearer " + localStorage.getItem("token");
+    return "Bearer " + localStorage.getItem("token1");
   }
 
   public static getApiBaseUrl() {

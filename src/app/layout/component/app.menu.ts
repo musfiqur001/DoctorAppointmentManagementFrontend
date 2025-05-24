@@ -25,6 +25,11 @@ export class AppMenu {
                 label: 'Get Started',
                 items: [
                     {
+                        label: 'Appointment',
+                        icon: 'pi pi-fw pi-book',
+                        routerLink: ['/Appointment']
+                    },
+                    {
                         label: 'Documentation',
                         icon: 'pi pi-fw pi-book',
                         routerLink: ['/documentation']

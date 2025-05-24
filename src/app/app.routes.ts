@@ -4,6 +4,7 @@ import { HomeComponent } from './app-ui/components/home/home.component';
 import { LoginComponent } from './app-ui/components/Auth/login/login.component';
 import { Notfound } from './app-ui/components/shared/notfound/notfound';
 import { RegisterComponent } from './app-ui/components/Auth/register/register.component';
+import { AppointmentComponent } from './app-ui/components/appointment/appointment.component';
 
 export const routes: Routes = [
   //{
@@ -16,6 +17,7 @@ export const routes: Routes = [
     component: AppLayout,
     children: [
       { path: '', component: HomeComponent },
+      { path: 'Appointment', component: AppointmentComponent },
       //{ path: 'Login', component: LoginComponent },
       //{ path: 'uikit', loadChildren: () => import('./app/pages/uikit/uikit.routes') },
       //{ path: 'documentation', component: Documentation },
